@@ -26,7 +26,7 @@ public class Hooks {
         chromeOptions.setBrowserVersion("109.0");
         chromeOptions.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
-                "enableVideo", true
+                "enableVideo", false
         ));
         chromeOptions.addArguments("--no-sandbox");
 
